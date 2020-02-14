@@ -4,7 +4,6 @@ class Song
   attr_accessor :artist, :name
 
   @@all = []
-  @@all.pop
   def initialize(name)
     @name = name
     @@all << self
