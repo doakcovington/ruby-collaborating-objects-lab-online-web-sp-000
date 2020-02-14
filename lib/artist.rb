@@ -4,7 +4,6 @@ class Artist
   attr_accessor :name, :songs
 
   @@all = []
-binding.pry
   def initialize(name)
     @name = name
     @songs = []
